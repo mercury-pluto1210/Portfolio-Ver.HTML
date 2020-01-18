@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Avenir Next";
+    margin:0;
+}
+
+.menu{
+    position: fixed;
+    top:0;
+    right:-23%;
+    background-color: #000;
+    height: 100vh;
+    width: 23%;
+    margin-left: auto;
+    z-index: 10;
+}
+
+.menu-back{
+    padding: 10px;
+}
+
+.back{
+    width:30px;
+}
+
+.fa-angle-double-right{
+    color: rgb(255, 255, 255);
+}
+
+.menu-contents{
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 35%;
+}
+
+.menu-list{
+    margin-bottom: 5%;
+    text-align: center;
+    list-style: none;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-text:hover{
+    color: rgb(117, 116, 116);
+}
+
+.menu-icons{
+    text-align: center;
+}
+
+.icons-list{
+    width:20px;
+    height: 20px;
+}
+
+.fab{
+    color: #fff;
+    font-size: 2em;
+    margin:0 7%;
+    cursor: pointer;
+    padding-top: 15%;
+    display: block;
+}
+
+.twitter:hover{
+    color: #00acee;
+}
+
+.github:hover{
+    color: #00ff6a;
+}
+
+.fas{
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+@keyframes liking {
+    0% {
+      transform: scale(0.5);
+    }
+    10% {
+      transform: scale(0.7);
+    }
+    30% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    80% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1.0);
+    }
+  }
+
+.like{
+    color: rgb(255, 0, 170);
+    animation: liking .2s;
+}
+
+.like-contents{
+    display: none;
+}
+
+.like-text{
+    color: rgb(255, 251, 0);
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.menu-h2{
+    font-family: 'Homemade Apple', cursive;
+    color: #fff;
+}
+
+.Portfolio{
+    background-attachment: fixed;
+    background: #110000;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.bars-text{
+    border: solid 2px #fff;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px 100px;
+    background-color: rgba(102, 101, 101, 0.7);
+    cursor: pointer;
+    position: fixed;
+    top: 320px;
+    right: 10px;
+    z-index: 5;
+}
+
+.Portfolio h1{
+    font-size: 150px;
+    font-family: 'Caveat', cursive;
+}
+
+
+.my-page{
+    background: url(../image/Portfolio.PNG);
+    background-size: cover;
+    position: relative;
+    height:50%;
+    background-position: 50% 50%;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+.my-page::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.my-page:hover::before{
+    background-color: rgba(0,0,0,0);
+}
+
+.my-page-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 
+    'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing: 3px;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.tuduku{
+    padding-top: 5%;
+    font-size: 2em;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 
+    'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing: 3px;
+}
